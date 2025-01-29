@@ -70,6 +70,16 @@ class ThemeConfig {
           )
         )
       )
-    )
+    ),
+
+    outlinedButtonTheme: OutlinedButtonThemeData(
+      style: ButtonStyle(
+        shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+          RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(10),
+          )
+        )
+      )
+    ),
   );
 }

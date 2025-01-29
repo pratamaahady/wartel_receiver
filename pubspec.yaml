@@ -40,10 +40,10 @@ dependencies:
   agora_rtc_engine: ^6.5.0
   flutter_secure_storage: ^9.2.4
   permission_handler: ^11.3.1
-  firebase_messaging: ^14.7.19
-  flutter_dotenv: ^5.2.1
   package_info_plus: ^5.0.1
   flutter_otp_text_field: ^1.4.0+2
+  firebase_core: ^2.1.1
+  firebase_messaging: ^14.0.4
 
 dev_dependencies:
   flutter_test:
@@ -72,7 +72,6 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/
-    - .env
 
 flutter_launcher_icons:
   android: "launcher_icon"

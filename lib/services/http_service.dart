@@ -29,7 +29,7 @@ class HttpService {
     if (path.startsWith('/')) {
       path = path.substring(1);
     }
-    return Uri.parse('$host/api/m/$path').replace(queryParameters: query);
+    return Uri.parse('$host/api/v1/receiver-app/$path').replace(queryParameters: query);
   }
 
   Future<String?> getAccessToken() => storage.read(key: 'access_token');
